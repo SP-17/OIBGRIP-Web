@@ -2,5 +2,7 @@
 Oasis Infobyte Web Development and Design Internship
 <html>
   <head></head>
-  <body></body>
+  <body>
+    <h1>Welcome</h1>
+  </body>
 </html>
