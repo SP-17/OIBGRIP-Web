@@ -1,1 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Temperature Converter</title>
+        <link rel="stylesheet" href="index.css" />
+    </head>
+    <script src="script.js"></script>
+    <body>
+        <header><h1>Temperature Conversion Calculator</h1></header>
+        <hr>
+        <div class="calcTemp">
+            <p class="heading">Convert Temperature</p>
+            <form action="" name="form">    
+                <div class="temp">
+                    <label for="">Value To Convert : </label>
+                    <input type="text" placeholder="Enter temperature" name="value" id="value" pattern="[0-9]+">
+                </div>
 
+                <div class="tempScale">
+                    <label for="">From : </label>
+                    <select name="input" id="input">
+                        <option value="celsius">Celsius (&#176;C)</option>
+                        <option value="fahrenheit">Fahrenheit (&#176;F)</option>
+                        <option value="kelvin">Kelvin (&#176;K)</option>
+                        <option value="rankine">Rankine (&#176;R)</option>
+                    </select>
+                    <label for="">To : </label>
+                    <select name="output" id="output">
+                        <option value="celsius">Celsius (&#176;C)</option>
+                        <option value="fahrenheit">Fahrenheit (&#176;F)</option>
+                        <option value="kelvin">Kelvin (&#176;K)</option>
+                        <option value="rankine">Rankine (&#176;R)</option>
+                    </select>
+                </div>
+                
+                <button type="button" id="clear" class="btn" onclick="reset()">Clear</button>
+                <button type="button" id="convert" class="btn" onclick="convertTemperature()">Convert</button>
+                <div class="result">
+                    <label for="" class="res">Answer:</label>
+                    <input type="text" value="" id="result" placeholder="Result">
+                </div>
+            </form>
+        </div>
+        <footer>
+            <p>Author: Sakshi Ashok Patil</p>
+            <a href="mailto: sakshipatil.172001@gmail.com" color="red">sakshipatil.172001@gmail.com</a>
+            <hr>
+            <h5>Copyright &copy; 2022 Sak172001, All Rights Reserved.</h5>
+        </footer>
+    </body>
+</html>
