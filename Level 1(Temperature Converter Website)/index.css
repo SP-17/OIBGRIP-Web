@@ -1,0 +1,105 @@
+body{
+    width: auto;
+    height: auto;
+    background-image: linear-gradient(to bottom, #f8f65f 0.5%, #ff6c29 25% , #f81a1a 75%, #b30000 100%);
+}
+
+header{
+    text-align: center;
+    font-size: 32px;
+    text-decoration: underline;
+}
+
+.calcTemp{
+    background: rgba(250, 242, 222, 0.842);
+    max-width: max-content;
+    width: 100%;
+    margin: 60px auto;
+    padding: 2px;
+    border: 8px double #330516;
+    border-radius: 20px;
+    box-shadow: 20px 20px 5px rgba(105, 2, 2, 0.719);
+    text-align: center;
+}
+
+.heading{
+    background-color: rgb(253, 97, 6);
+    font-size: 54px;
+    text-decoration: underline;
+    font-weight: bolder;
+    margin: 8px;
+    padding: 2px;
+}
+
+.temp{
+    margin: 22px;
+    padding: 4px;
+    font-size: 40px;
+    font-weight: bolder;
+    
+}
+
+.tempScale{
+    padding: 2px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#value{
+    font-size: 28px;
+    text-align: center;
+}
+
+#input{
+    font-size: 24px;
+}
+
+#output{
+    font-size: 24px;
+}
+
+.btn{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 28px;
+    margin: 20px;
+    margin-top: 24px;
+    background-color: rgb(243, 131, 3);
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+
+.btn:hover{
+    font-size: 38px;
+    background-color: rgb(255, 19, 30);
+    color: rgb(156, 156, 156);
+    font-weight: bolder;
+}
+
+.res{
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: underline double black;
+}
+
+.result
+{
+    margin: 12px;
+    padding-bottom: 4px;
+}
+
+#result{
+    font-size: 22px;
+    text-align: center;
+}
+
+footer{
+    font-size: 16px;
+    background-color: #850000;
+    color: #ffae00;
+    text-align: center;
+    margin: 6px;
+    padding: 2px;
+  }
