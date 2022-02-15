@@ -8,7 +8,7 @@
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "c:\\Users\\Ashok Patil\\Desktop\\Oasis Infobyte\\Level 1(Temperature Converter Website)\\index.html"
+            "file": "c:\\Users\\Ashok Patil\\Desktop\\OIBGRIP-Web\\Level 1(Temperature Converter Website)\\index.html"
         }
     ]
 }
