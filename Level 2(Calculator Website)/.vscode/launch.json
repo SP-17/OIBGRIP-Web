@@ -8,7 +8,7 @@
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "c:\\Users\\Ashok Patil\\Desktop\\OIBGRIP\\Level 2(Calculator Website)\\index.html"
+            "file": "c:\\Users\\Ashok Patil\\Desktop\\OIBGRIP-Web\\Level 2(Calculator Website)\\index.html"
         }
     ]
 }
