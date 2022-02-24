@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+
+header{
+    font-size: 36px;
+    font-weight: bolder;
+    text-decoration: underline solid 2px;
+    background-color: rgb(4, 40, 43);
+    color: whitesmoke;
+    text-align: center;
+    padding: 1px;
+}
+  
+.row {
+    display: flex;
+}
+  
+.column1 {
+    flex: 20%;
+    width: max-content;
+    background-color: rgb(207, 228, 231);
+    padding: 6px;
+    margin: 14px;
+}
+
+.column2 {
+    flex: 80%;
+    background-color: rgb(207, 228, 231);
+}
+
+.row1 {
+    flex: 20%;
+    background-color: whitesmoke;
+    padding: 6px;
+    margin: 14px;
+}
+
+.row2 {
+    flex: 20%;
+    background-color: whitesmoke;
+    padding: 6px;
+    margin: 14px;
+}
+
+.row3 {
+    flex: 20%;
+    background-color: whitesmoke;
+    padding: 6px;
+    margin: 14px;
+}
+
+img{
+    height: 400px;
+    width: 350px;
+}
+
+.name {
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
+
+.details {
+    text-align: left;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.heading {
+    font-size: 38px;
+    text-align: left;
+    padding-left: 10px;
+    margin-left: 4px;
+    background-color: rgb(19, 120, 128);
+    color: whitesmoke;
+}
+
+a {
+    color: black;
+}
+
+button {
+    text-align: center;
+    font-size: 22px;
+    padding: 10px;
+    margin: 4px;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: serif;
+}
+
+p {
+    font-size: 22px;
+    font-weight: lighter;
+    font-family: monospace;
+}
+
+.marks, .year {
+    color: rgb(87, 85, 85);
+    font-size: 16px;
+}
+
+h5 {
+    font-size: 22px;
+    font-weight: lighter;
+    font-family: monospace;
+    color: rgb(87, 85, 85);
+}
+
+ul {
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: serif;
+}
+
+footer{
+    font-size: 24px;
+    background-color: rgb(4, 40, 43);
+    color: #76b8a9;
+    text-align: center;
+    margin: 6px;
+    padding: 2px;
+}
+
+.footmail {
+    color: #edf5f3;
+    font-size: 24px;
+}
+
+.footcpyr {
+    color: #76b8a9;
+    font-size: 24px;
+}
